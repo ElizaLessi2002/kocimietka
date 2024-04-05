@@ -1,0 +1,445 @@
+<!-- 
+-->
+
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Sklep internetowy kocimiętka</title>
+    <meta name="description"
+        content="Kochasz zwierzeta, jest to idealne miejsce dla Ciebie." />
+    <meta name="keywords"
+        content="zwierzęta,kot, pies, chomik, akcesoria dla zwierząt, zabawki, królik, wąż, ptaki, małe zwierzęta" />
+    <meta name="author" content="Eliza Lesiewicz" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="fontello-bd0475e2/css/fontello.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(function ($) {
+            $.scrollTo(0);
+
+            $('#link1').click(function () { $.scrollTo($('#Psy'), 1000); });
+            $('#link2').click(function () { $.scrollTo($('#Akcesoria_dla_zwierząt'), 3000); });
+            $('#link3').click(function () { $.scrollTo($('#Koty'), 3000); });
+            $('#link4').click(function () { $.scrollTo($('#Ptaki'), 3000); });
+            $('#link5').click(function () { $.scrollTo($('#Zabawki'), 3000); });
+            $('#link6').click(function () { $.scrollTo($('#Małe_zwierzęta'), 2000); });
+            $('#link7').click(function () { $.scrollTo($('#Kontakt'), 3500); });
+            $('#link8').click(function () { $.scrollTo($('#Newsletter'), 3500); });
+
+            $('.scrollup').click(function () { $.scrollTo($('body'), 1000); });
+
+        }
+        );
+        //pokaz podczas przewijania
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
+        }
+        )
+		
+		
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#" class="scrollup"></a>
+
+        <div id="rectangle">
+            <div class="logo">
+                <h1> Kocimiętka </h1>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="menu">
+
+                <li>
+                    <a id="link1" href="#" title="Psy" class="navlink">
+                        Psy
+                    </a>
+					<form action="">
+						<select name="Psy">
+							<option>Karma mokra</option>
+							<option>Karma sucha</option>
+						</select>
+						</form>
+                </li>
+
+                <li>
+                    <a id="link3" href="#" title="Koty" class="navlink">
+                        Koty
+                    </a>
+					<form action="">
+						<select name="Koty">
+							<option>Karma mokra</option>
+							<option>Karma sucha</option>
+						</select>
+						</form>
+                </li>
+
+                <li>
+                    <a id="link6" href="#" title="Małe zwierzęta" class="navlink">
+                        Małe zwierzęta
+                    </a>
+
+					<form action="">
+						<select name="Małe zwierzęta">
+							<option>Króliki</option>
+							<option>Żółwie</option>
+							<option>Chomiki</option>
+							<option>Świnki morskie</option>
+							
+						</select>
+						</form>
+                </li>
+
+                <li>
+                    <a id="link4" href="#" title="Ptaki" class="navlink">
+                        Ptaki
+                    </a>
+					<form action="">
+						<select name="Ptaki">
+							<option>Papugi</option>
+							<option>Kanarki</option>
+						</select>
+						</form>
+                </li>
+
+                <li>
+                    <a id="link2" href="#" title="Akcesoria dla zwierząt" class="navlink">
+                        Akcesoria dla zwierząt
+						</a>
+        
+						<form action="">
+						<select name="Akcesoria dla zwierząt">
+							<option>Smyczki</option>
+							<option>Kontererki</option>
+							<option>Kuwety</option>
+							<option>Obróżki</option>
+						
+						</select>
+						</form>
+                    
+                </li>
+
+                <li>
+                    <a id="link5" href="#" title="Zabawki" class="navlink">
+                        Zabawki
+						</a>
+						<form action="">
+						<select name="Zabawki">
+							<option>Pies</option>
+							<option>Kot</option>
+							<option>Papuga</option>
+							<option>Kanarek</option>
+							<option>Chomik</option>
+							<option>Świnka morska</option>
+							<option>Żółw</option>
+							<option>Królik</option>
+						
+						</select>
+						</form>
+                        
+                </li>
+                
+                
+                <li>
+                    <a id="link7" href="#" title="Kontakt" class="navlink">
+                        Kontakt
+                    </a>
+                    <form action="">
+						<select name="Kontakt">
+							<option>Telefon</option>
+							<option>Mail</option>
+							<option>Fax</option>
+						</select>
+                    </form>
+					<li>
+                    <a id="link8" href="#" title="Newsletter" class="navlink">
+                        Newsletter
+                    </a>
+                    <form action="">
+						<select name="Newsletter">
+							<option>Zostań z nami</option>
+						</select>
+                    </form>
+                    </li>
+					
+                </li>
+
+                <br />
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+			<div id="wyszukiwarka">
+				<form id="search" method="get" action="http://www.google.pl/search" target="_blank">
+					<input type="text" class="text" value="" name="q"/>
+					<input type="hidden" name="ie" value="iso-8859-2" />
+					<input type="submit" class="submit" value="Szukaj" />
+				</form>
+			</div>
+			<br/> <br/>
+			
+            <div class="square">
+                <div id="strona">
+                    <img src="img/R.jpg" width="300" height="220"/>
+                    <br /> <br />
+                </div>
+            </div>
+            <div class="square">
+                <img src="img/e.jpg" width="300" height="220" />
+                <br />	<br />
+            </div>
+			
+			<div class="square">
+                <img src="img/p.jpg" width="300" height="220" align="center"/>
+                <br />	<br />
+            </div>
+			
+			<div class="square">
+                <img src="img/t.jpg" width="300" height="220" align="center" />
+                <br />	<br />
+            </div>
+			
+			<div class ="square">
+				<img src="img/u.jpg" width="300" height="220" align="center"/>
+				<br/> <br/>
+			</div>
+			
+			<div class ="square">
+				<img src="img/y.jpg" width="300" height="220" align="center"/>
+				<br/> <br/>
+			</div>
+			
+			<div class ="square">
+				<img src="img/w.jpg" width="300" height="200" align="center"/>
+				<br/> <br/>
+			</div>
+			
+			<div class ="square">
+				<img src="img/m.jpg" width="300" height="200" align="center"/>
+				<br/> <br/>
+			</div>
+			
+            <div style="clear:both">
+            </div>
+
+            <header id="Zawartosc">
+
+                <section id="stopka1">
+
+                    <div class="stopka1">
+                        <h2 id="O_nas">
+                            <i class="demo-icon icon-graduation-cap">O nas</i>
+                            <h4>
+                                Jesteśmy nowi na rynku, ale mamy bardzo dobre produkty, które spodobają się każdemu.
+                                <br/><br/>
+                                Wiemy dokładnie jak zachęcić klienta oraz jakie oferty podsyłać, aby klient częściej do nas wracał.
+                                <br/><br/>
+                                Kochamy współpracować z ludźmi, którzy mają doświadczenie lub chętni są  do nauki.
+                                <br/><br/>
+                                Dołącz do nas
+                        </h2>
+                    </div>
+                </section>
+
+            </header>
+
+            <article>
+
+                <section id="szczegoly">
+
+                    <h2 id="Psy">
+                        <i class="demo-icon icon-graduation-cap">Psy</i>
+                        
+                        <h4>
+                            <br />Małe <br /> <br />
+							<img src="img/i.jpg" width="300" height="200"/>
+							<br/> Duże <br/> <br/>
+                            <img src="img/o.jpg" width="300" height="200" alt="Tutaj jest obrazek"/>
+                            <br /> <br />
+                            <p>
+                            
+                            <br></br>
+                            
+                            </p>
+                        </h4>
+                        <section id="Koty">
+                            <div class="Koty">
+                                <h2 id="Koty">
+								
+                                    <i class="demo-icon icon-graduation-cap">Koty</i>
+                                    <h4>
+                                        <h4 class="lewastrona">
+                                           <br /><br />
+								
+									<img src="img/e.jpg" width="300" height="200" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                        <br />
+                                    </h4>
+                                        
+                                        <br /> <br /> 
+                                    </h4>
+                                </h2>
+                            </div>
+                        </section>
+                        <section id="Małe_zwierzęta">
+                            <div class="Małe_zwierzęta">
+                                <h2 id="Małe_zwierzęta">
+                                    <i class="demo-icon icon-graduation-cap">Małe zwierzęta</i>
+                                    <h4>
+                                        <h3>Króliki</h3>
+                                        <img src="img/7.png" width="300" height="200" alt="Tutaj jest obrazek"/>
+                                        <br/><br/>
+                                        <h3>Chomiki</h3>
+                                        <img src="img/8.png" width="300" height="200" alt="Tutaj jest obrazek"/>
+                                        <br/><br/>
+                                    </h4>
+                                </h2>
+                            </div>
+                        </section>
+                        <h2 id="Ptaki">
+                            <i class="demo-icon icon-graduation-cap">Ptaki</i>
+                            <h4>
+                                <h3>Papugi</h3>
+                                    
+									<img src="img/k.jpg" width="300" height="300" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                    
+                                    <br /> <br />
+                                <h3>Kanarki</h3>
+                                
+								<img src="img/rr.jpg" width="300" height="300" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                    <br /> <br />
+                            </h4>
+                        </h2>
+						
+						<h2 id="Akcesoria_dla_zwierząt">
+							<i class="demo-icon icon-graduation-cap">Akcesoria dla zwierząt</i>
+							<h4>
+                            Obróżki
+                            <br/> <br/>
+                            <img src="img/9.png" width="300" height="300" alt="Tutaj jest obrazek"
+                            text-align="center" />
+                            <br/> <br/>
+                            Kuwety
+                            <br/> <br/>
+                            <img src="img/10.png" width="300" height="300" alt="Tutaj jest obrazek"
+                            text-align="center" />
+                            <br/> <br/>
+                            Drapaki
+                            <br/> <br/>
+                            <img src="img/11.png" width="300" height="300" alt="Tutaj jest obrazek"
+                            text-align="center" />
+                            <br/> <br/>
+                            Ubranka dla zwierząt
+                            <br/> <br/>
+                            <img src="img/12.png" width="300" height="300" alt="Tutaj jest obrazek"
+                            text-align="center" />
+							</h4>
+						</h2>
+						
+						<h2 id="Zabawki">
+							<i class="demo-icon icon-graduation-cap">Zabawki</i>
+							<h4>
+                                Dla kotów
+                                <br/><br/>
+								<img src="img/3.png" width="300" height="300" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                <br/><br/>
+
+                                Dla psów
+                                <br/><br/>
+                                <img src="img/4.png" width="300" height="300" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                <br/><br/>
+
+                                Do jedzenia dla wszystkich zwierząt
+                                <br/><br/>
+                                <img src="img/5.png" width="300" height="300" alt="Tutaj jest obrazek"
+                                text-align="center" />
+                                <br/><br/>
+							</h4>
+						</h2>
+						<h2 id="Kontakt">
+							<i class="demo-icon icon-graduation-cap">Kontakt</i>
+							<h4>
+								telefon: 666 854 655
+								<br/> <br/>
+								e-mail: eliza20122002@wp.pl
+							</h4>
+							<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+								<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+								<script>
+								(function () {
+								var setting = {"height":540,"width":706,"zoom":17,"queryString":"Sklep zoologiczny zoozone.pl, Tuszyńska, Łódź, Polska","place_id":"ChIJsyjuhJI0GkcRLzFxoy246Oc","satellite":false,"centerCoord":[51.73047497012995,19.468300500000005],"cid":"0xe7e8b82da371312f","lang":"pl","cityUrl":"/poland/lodz-33138","cityAnchorText":"","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"877856"};
+								var d = document;
+								var s = d.createElement('script');
+								s.src = 'https://1map.com/js/script-for-user.js?embed_id=877856';
+								s.async = true;
+								s.onload = function (e) {
+								  window.OneMap.initMap(setting)
+								};
+								var to = d.getElementsByTagName('script')[0];
+								to.parentNode.insertBefore(s, to);
+								})();
+								</script>
+								
+								<a href="https://1map.com/pl/map-embed">1 Map</a></div>
+						</h2>
+						<h2 id="Newsletter">
+							<i class="demo-icon icon-graduation-cap">Newsletter</i>
+							<h4>
+							Zapisz się do naszego newslettera, a otrzymasz 10 % zniżki na zakupy.
+							</h4>
+						</h2>
+                    </h2>
+                </section>
+
+        </article>
+
+        <div>
+            <section id="stopka">
+
+                <div class="stopka">
+
+                    <h4 id="wykonawcy">
+                        Projekt wykonawcy: <br /> <br />
+                        Eliza Lesiewicz
+                         <br /> <br />
+                        Wszelkie prawa zastrzeżone 2023r.
+                    </h4>
+
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
