@@ -15,7 +15,7 @@ Do prawidłowego uruchomienia projektu potrzeba:
 
 1. **Klonowanie repozytorium**
 
-`git clone https://github.com/ElizaLessi2002/kocimietka.git`
+- `git clone https://github.com/ElizaLessi2002/kocimietka.git`
 
 2. **Umieszczenie bezpośrednio folderu kocimietka w lokalnym serwerze Xampp w folderze htdocs**
 
