@@ -6,17 +6,12 @@ Projekt przedstawia stronę internetową dotyczącą sprzedaży akcesoriów dla 
 - **Backend:** PHP
 
 # Wymagania
-Do prawidłowego uruchomienia projektu potrzeba:
-- **Xampp** w wersji 3.3.0
-- Opcjonalnie **GIT** w wersji 2.45.2
-- Opcjonalnie **Visual Studio Code** w wersji 1.104.2
+Do prawidłowego uruchomienia projektu potrzeba **Xampp** w wersji 3.3.0 z modułem Apache
 
 # Instalacja i uruchomienie
 
-1. **Klonowanie repozytorium**
+1. **Umieszczenie bezpośrednio folderu kocimietka w lokalnym serwerze Xampp w folderze htdocs**
 
-- `git clone https://github.com/ElizaLessi2002/kocimietka.git`
-
-2. **Umieszczenie bezpośrednio folderu kocimietka w lokalnym serwerze Xampp w folderze htdocs**
+2. **Uruchomić moduł Apache z poziomu aplikacji Xampp**
 
 - Strona będzie dostępna pod adresem: `http://localhost/kocimietka/frontend/html/index.html`
