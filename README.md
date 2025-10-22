@@ -2,7 +2,7 @@
 Projekt przedstawia stronę internetową dotyczącą sprzedaży akcesoriów dla zwierząt domowych
 
 # Technologie
-- **Frontend:** Bootstrap, HTML, CSS
+- **Frontend:** Bootstrap w wersji 5.3.8, HTML5, CSS3
 - **Backend:** PHP
 
 # Wymagania
@@ -17,5 +17,6 @@ Do prawidłowego uruchomienia projektu potrzeba:
 
 `git clone https://github.com/ElizaLessi2002/kocimietka.git`
 
+2. **Umieszczenie bezpośrednio folderu kocimietka w lokalnym serwerze Xampp w folderze htdocs**
 
-Strona będzie dostępna pod adresem: `http://localhost/kocimietka/frontend/html/index.html`
+- Strona będzie dostępna pod adresem: `http://localhost/kocimietka/frontend/html/index.html`
