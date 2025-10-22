@@ -2,7 +2,7 @@
 Projekt przedstawia stronę internetową dotyczącą sprzedaży akcesoriów dla zwierząt domowych
 
 # Technologie
-- **Frontend:** Bootstrap w wersji 5.3.8, HTML5, CSS3
+- **Frontend:** Bootstrap w wersji 5.3.8, HTML5, CSS3, JavaScript
 - **Backend:** PHP
 
 # Wymagania
