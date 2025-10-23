@@ -1,12 +1,16 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 body
 { 
 	margin: 0;
 	font-size: 17px;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Lato', sans-serif;
-	width:100%;
+	/* width:100%; */
 	min-width:600px;
-	max-width:2000px;
+	/* max-width:2000px; */
 
 }
 
@@ -63,7 +67,7 @@ nav
 {
 	float:none;
 	color: black;
-	padding: 20px;
+	/* padding: 20px; */
 	text-align: center;
 }
 
@@ -72,15 +76,6 @@ nav
 	width: 50%;
 	float: left;
 	display: inline-block;
-}
-
-#add
-{
-	float:right;
-	color: #303030;
-	width: 186px;
-	min-height: 800px;
-	background-color: #303030;
 }
 
 .stopka 
@@ -137,7 +132,7 @@ a.fblink{
 	width: 64px;
 	height: 64px;
 	text-decoration: none;
-	background: url("../img/Up.png") no-repeat 0px 0px;
+	background: url("../pictures/Up.png") no-repeat 0px 0px;
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
@@ -161,10 +156,7 @@ h4
 	background-color: #191d21;
 	font-size: 27px;
 }
-.row
-{
-	margin: 20px 10px;
-}
+
 img
 {
 	text-align: center;
@@ -188,3 +180,13 @@ p
 .map .countries>.austria {background-image: url('../images/countries/europe/austria.png')}
 
 .map .countries>li.hover {background-position: -920px 0}
+
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+    width: 100%; 
+    max-width: 706px;
+    margin: 20px auto; 
+}
+
+#map-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+    width: 100% !important; 
+}
